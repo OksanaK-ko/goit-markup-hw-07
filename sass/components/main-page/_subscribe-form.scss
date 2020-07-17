@@ -1,0 +1,66 @@
+.join,
+.subscribe-caption {
+  color: $title-accent-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.subscribe {
+    &-form  {
+    display: flex;
+  }
+  &-caption {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px; 
+  }
+  &-input {
+    display: block;
+    padding: 15px 295px 15px 16px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background: $footer-background-color;  
+  }
+  &-button {
+      @extend %button;
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        margin-left: 12px;
+        padding-left: 29px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        border: none;
+  }
+  &-icon {
+    position: absolute;
+    top: 13px;
+    left: 148px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    fill: $title-accent-color;
+  }
+}
+.join .title {
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  display: inline-flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding: 10px 55px 10px 56px;
+  margin: 0px 164px 0px 164px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  @extend %button;
+}

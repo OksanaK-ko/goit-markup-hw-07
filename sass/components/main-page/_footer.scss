@@ -1,0 +1,50 @@
+.secondary-accent {
+    color: $title-accent-color;
+  }
+
+.foot-nav {
+    display: flex;
+    align-items: baseline;
+  }
+.footer {
+    background-color: $footer-background-color;
+    & .address, & .link {
+        font-size: 14px;
+        line-height: 1.71; 
+    }
+    & .us {
+        padding-bottom: 9px;
+        color: $footer-accent-color;  
+    }
+    &-link {
+        display: flex;
+        margin-bottom: 74px;
+      }
+    & .social  {
+        display: block;
+        margin-right: 94px;
+      }
+  }
+
+  .foot {
+      &-contact .address {
+        margin-right: 69px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 9px;
+        color: $title-accent-color;
+        font-style: normal;   
+      }
+
+      &-address {
+        display: flex;
+        flex-direction: column;  
+      }
+
+      &-nav .logo {
+        padding-bottom: 8px;  
+      }
+  }
+
+ 
+

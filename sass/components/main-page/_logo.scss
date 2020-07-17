@@ -1,0 +1,26 @@
+.logo {
+    display: block;
+    margin-right: 85px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  
+  .accent {
+    color: $accent-color;
+  }
+
+  .site-nav, .contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-nav, .footer {
+      & .logo .link {
+          color: $primary-text-color;
+          font-family: $secondary-font;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 1.2;
+          text-decoration: none;
+      }
+  }

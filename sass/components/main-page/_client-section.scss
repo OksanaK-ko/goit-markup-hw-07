@@ -1,0 +1,30 @@
+
+.client {
+    width: calc((100% - 150px) / 6);
+    &:not(:last-child) {
+        margin-right: 30px;
+      }
+    &-link {
+        @include flex-center ();
+        width: 170px;
+        height: 90px;
+        border: 1px solid $link-color;
+        border-radius: 4px;
+
+        .client:hover &, .client:focus-within & {
+            fill: $accent-color;
+            border: 1px solid $accent-color;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            transition: transform $duration $timing-function;
+        }
+    }
+    &-icon {
+      fill: $link-color;
+
+      .client:hover &, .client:focus-within & {
+        fill: $accent-color;
+        }
+    }
+
+  }
