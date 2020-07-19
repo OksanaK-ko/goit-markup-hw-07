@@ -61,7 +61,7 @@
 .form-label {    
     .form-field:focus-within > &,
     .form-input:not(:placeholder-shown) + & {
-        color: var(--accent-color);
+        color: $accent-color;
         transform: translate(-8px, -45px);
     }
 }

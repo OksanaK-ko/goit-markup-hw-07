@@ -1084,7 +1084,7 @@ img {
 
 .form-field:focus-within > .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
-  color: var(--accent-color);
+  color: #2196f3;
   -webkit-transform: translate(-8px, -45px);
           transform: translate(-8px, -45px);
 }
